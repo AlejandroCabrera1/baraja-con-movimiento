@@ -1,0 +1,173 @@
+body{
+		background-color: green;
+	}
+	#treboles7{
+		top: 300px;
+		left: 500px;
+		z-index: 4;
+		animation-name: treboles7;
+		animation-duration: 3s;
+	}
+	#picas4{
+		top: 300px;
+		left: 500px;
+		z-index: 2;
+		animation-name: picas4;
+		animation-duration: 3s;
+	}
+	#corazones6{
+		top: 300px;
+		left: 500px;
+		z-index: 3;
+		animation-name: corazones6;
+		animation-duration: 3s;
+	}
+	#diamanteas{
+		top: 300px;
+		left: 500px;
+		z-index: 1;
+		animation-name: diamanteas;
+		animation-duration: 3s;
+	}
+	@keyframes treboles7{
+		0%{transform: rotate(0deg);}
+		100%{transform: rotate(45deg);}
+		0%{left: 500px}
+		100%{left: 650px}
+	}
+	@keyframes picas4{
+		0%{transform: rotate(0deg);}
+		100%{transform: rotate(-15deg);}
+		0%{left: 500px}
+		100%{left: 450px}
+	}
+	@keyframes corazones6{
+		0%{transform: rotate(0deg);}
+		100%{transform: rotate(15deg);}
+		0%{left: 500px}
+		100%{left: 550px}
+	}
+	@keyframes diamanteas{
+		0%{transform: rotate(0deg);}
+		100%{transform: rotate(-45deg);}
+		0%{left: 500px}
+		100%{left: 350px}
+	}
+	.carta{
+		height: 180px;
+		width: 110px;
+		background-color: rgb(230, 230, 230);
+		border-radius: 10px;
+		border:  black 2px solid;
+		position: absolute;
+	}
+	.numeropalo{
+		font-size: 20px;
+	}
+	.numeropalo_invertido{
+		transform: rotate(180deg);
+		position: absolute;
+		bottom: 2px;
+		right: 2px;
+	}
+	.numeropalo_rojo{
+		font-size: 20px;
+		color: red;
+	}
+	.numeropalo_invertido_rojo{
+		transform: rotate(180deg);
+		position: absolute;
+		bottom: 2px;
+		right: 2px;
+		color: red;
+	}
+	.figura{
+		font-size: 35px;
+		position: absolute;
+	}
+	#treboles7_1{
+		left: 18px;
+		top: 13px;
+	}
+	#treboles7_2{
+		left: 65px;
+		top: 13px;
+	}
+	#treboles7_3{
+		left: 18px;
+		top: 72.5px;
+	}
+	#treboles7_4{
+		left: 65px;
+		top: 72.5px;
+	}
+	#treboles7_5{
+		left: 18px;
+		top: 132px;
+		transform: rotate(180deg);
+	}
+	#treboles7_6{
+		left: 65px;
+		top: 132px;
+		transform: rotate(180deg);
+	}
+	#treboles7_7{
+		left: 40px;
+		top: 100.5px;
+	}
+
+	#picas4_1{
+		left: 18px;
+		top: 13px;
+	}
+	#picas4_2{
+		left: 65px;
+		top: 13px;
+	}
+	#picas4_3{
+		left: 18px;
+		top: 132px;
+		transform: rotate(180deg);
+	}
+	#picas4_4{
+		left: 65px;
+		top: 132px;
+		transform: rotate(180deg);
+	}
+	#corazones6_1{
+		left: 18px;
+		top: 13px;
+		color: red;
+	}
+	#corazones6_2{
+		left: 65px;
+		top: 13px;
+		color: red;
+	}
+	#corazones6_3{
+		left: 18px;
+		top: 72.5px;
+		color: red;
+	}
+	#corazones6_4{
+		left: 65px;
+		top: 72.5px;
+		color: red;
+	}
+	#corazones6_5{
+		left: 18px;
+		top: 132px;
+		transform: rotate(180deg);
+		color: red;
+	}
+	#corazones6_6{
+		left: 65px;
+		top: 132px;
+		transform: rotate(180deg);
+		color: red;
+	}
+	#diamanteas_1{
+		left: 37.5px;
+		top: 72.5px;
+		color: red;
+	}
